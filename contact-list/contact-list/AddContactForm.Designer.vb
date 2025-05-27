@@ -26,7 +26,7 @@ Partial Class sodienthoai
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.sadsad = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'hoTen
@@ -63,19 +63,19 @@ Partial Class sodienthoai
         Me.TextBox1.Size = New System.Drawing.Size(205, 20)
         Me.TextBox1.TabIndex = 3
         '
-        'TextBox2
+        'sadsad
         '
-        Me.TextBox2.Location = New System.Drawing.Point(351, 124)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 4
+        Me.sadsad.Location = New System.Drawing.Point(351, 124)
+        Me.sadsad.Name = "sadsad"
+        Me.sadsad.Size = New System.Drawing.Size(240, 20)
+        Me.sadsad.TabIndex = 4
         '
         'sodienthoai
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.sadsad)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
@@ -91,5 +91,5 @@ Partial Class sodienthoai
     Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents sadsad As TextBox
 End Class
